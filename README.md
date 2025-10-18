@@ -2,13 +2,13 @@
 
 ### A Project on Movie & TV Show Insights
 
-This repository contains a Python script that demonstrates an end-to-end data handling workflow. The project involves simulating a web scrape, cleaning and filtering the collected data using Pandas, performing exploratory data analysis, and exporting the results into a CSV file.
+This repository contains a Python script that demonstrates an end-to-end data handling workflow. The project involves simulating a web scrape, cleaning and filtering the collected data using Pandas, performing exploratory data analysis and exporting the results into a CSV file.
 
 ## 📝 Project Overview
 
-The initial goal of this project was to scrape movie and TV show data from the popular platform `JustWatch.com`. However, the initial data extraction phase encountered significant and persistent technical challenges due to the site's advanced anti-scraping measures. These measures consistently blocked browser automation (Selenium) and direct API requests, resulting in repeated timeout and access errors.
+The initial goal of this project was to scrape movie and TV show data from the popular platform `JustWatch.com`. However the initial data extraction phase encountered significant and persistent technical challenges due to the sites advanced anti-scraping measures. These measures consistently blocked browser automation (Selenium) and direct API requests resulting in repeated timeout and access errors.
 
-This is a common challenge in real-world web scraping. To overcome this roadblock and ensure the project's analytical objectives could be met, a strategic pivot was made: **a representative dataset was programmatically generated to simulate a perfect, successful scrape** of 50 movies and 50 TV shows.
+This is a common challenge in real-world web scraping. To overcome this roadblock and ensure the projects analytical objectives could be met a strategic pivot was made: **a representative dataset was programmatically generated to simulate a perfect successful scrape** of 50 movies and 50 TV shows.
 
 This approach allowed for a complete and successful demonstration of the data processing and analysis pipeline as required by the assignment.
 
@@ -42,19 +42,10 @@ The script successfully performs all the core data handling tasks outlined in th
 
 ---
 
-## 🚀 How to Run
-
-1.  Clone this repository or download the `.ipynb` file.
-2.  Open the `Numerical_Programming_in_Python_Web_Scraping.ipynb` file in Google Colab or another Jupyter environment.
-3.  Run all the cells sequentially from top to bottom.
-4.  The script will generate two CSV files (`filtered_data.csv` and `all_data.csv`) in the session storage, which can then be downloaded.
-
----
-
 ## 📊 Key Findings from the Analysis
 
 Based on the simulated dataset of 100 popular titles:
 
 * **Average IMDb Rating:** The average IMDb rating across all movies and TV shows was **7.74**.
-* **Top 5 Genres:** The most prevalent genres were **Drama**, **Action & Adventure**, **Comedy**, **Crime**, and **Mystery & Thriller**.
+* **Top 5 Genres:** The most prevalent genres were **Drama**, **Action & Adventure**, **Comedy**, **Crime** and **Mystery & Thriller**.
 * **Predominant Streaming Service:** **Netflix** was the streaming service with the most titles available in this dataset.
