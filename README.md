@@ -33,7 +33,7 @@ The script successfully performs all the core data handling tasks outlined in th
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python:** The core programming language.
 * **Pandas:** For data manipulation, cleaning, filtering, and analysis.
