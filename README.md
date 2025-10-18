@@ -4,7 +4,7 @@
 
 This repository contains a Python script that demonstrates an end-to-end data handling workflow. The project involves simulating a web scrape, cleaning and filtering the collected data using Pandas, performing exploratory data analysis and exporting the results into a CSV file.
 
-## 📝 Project Overview
+## Project Overview
 
 The initial goal of this project was to scrape movie and TV show data from the popular platform `JustWatch.com`. However the initial data extraction phase encountered significant and persistent technical challenges due to the sites advanced anti-scraping measures. These measures consistently blocked browser automation (Selenium) and direct API requests resulting in repeated timeout and access errors.
 
